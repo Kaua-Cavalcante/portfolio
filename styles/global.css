@@ -2,6 +2,7 @@
 @import url("./social.css");
 @import url("./about.css");
 @import url("./projects.css");
+@import url("./theme.css");
 
 * {
   margin: 0;
@@ -24,6 +25,9 @@
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
   --shadow-card: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  --moon: #4f688c;
+  --sun: #cc9e53;
 }
 
 body {
@@ -31,6 +35,13 @@ body {
 
   color: var(--primary);
   font: 400 16px "Inter", sans-serif;
+
+  transition: background 0.2s linear;
+
+}
+
+body.dark {
+  background-color: #2c2d2e;
 }
 
 .app {

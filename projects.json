@@ -1,0 +1,26 @@
+[
+  {
+    "name": "UI Blizzard",
+    "image": "./assets/preview-blizzard.png",
+    "tags": ["NextJS", "Typescript", "Sass", "Responsivo"],
+    "link": "https://blizzard-steel.vercel.app"
+  },
+  {
+    "name": "WeatherApp",
+    "image": "./assets/preview-weatherapp.png",
+    "tags": ["Javascript", "Integração de APIs", "Responsivo"],
+    "link": "https://weather-app-kappa-eight-15.vercel.app"
+  },
+  {
+    "name": "Snake Game",
+    "image": "./assets/preview-snakegame.png",
+    "tags": ["Javascript", "Css", "Canvas Tag"],
+    "link": "https://snake-game-nine-mu.vercel.app"
+  },
+  {
+    "name": "EK Music",
+    "image": "./assets/preview-ekmusic.png",
+    "tags": ["Javascript", "JQuery", "Css", "Responsivo"],
+    "link": "https://ek-music.vercel.app"
+  }
+]

@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="./styles/global.css" />
 
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <script src="js/main.js" defer></script>
+
+    <script src="js/index.js" defer></script>
+    <script src="js/theme.js" defer></script>
   </head>
   <body>
     <div class="theme">
@@ -83,83 +85,7 @@
       <section class="card projects">
         <h2 class="subtitle">Projetos</h2>
 
-        <div class="project__content">
-          <a
-            href="https://blizzard-steel.vercel.app"
-            target="_blank"
-            class="project"
-          >
-            <picture>
-              <img
-                src="./assets/preview-blizzard.png"
-                alt="Preview site da Blizzard"
-              />
-            </picture>
-
-            <strong>Site da Blizzard</strong>
-
-            <div>
-              <span>NextJS</span>
-              <span>Typescript</span>
-              <span>Sass</span>
-              <span>Responsivo</span>
-            </div>
-          </a>
-
-          <a
-            href="https://weather-app-kappa-eight-15.vercel.app"
-            target="_blank"
-            class="project"
-          >
-            <picture>
-              <img
-                src="./assets/preview-weatherapp.png"
-                alt="Preview Weather App"
-              />
-            </picture>
-
-            <strong>WeatherApp</strong>
-
-            <div>
-              <span>Javascript</span>
-              <span>Integração de APIs</span>
-              <span>Responsivo</span>
-            </div>
-          </a>
-
-          <a
-            href="https://snake-game-nine-mu.vercel.app"
-            target="_blank"
-            class="project"
-          >
-            <picture>
-              <img src="./assets/preview-snakegame.png" alt="" />
-            </picture>
-
-            <strong>Snake Game</strong>
-
-            <div>
-              <span>Javascript</span>
-              <span>Css</span>
-              <span>Canvas Tag</span>
-            </div>
-          </a>
-
-          <a href="https://ek-music.vercel.app" target="_blank" class="project">
-            <picture>
-              <img src="./assets/preview-ekmusic.png" alt="" />
-            </picture>
-
-            <strong>EK Music</strong>
-
-            <div>
-              <span>Javascript</span>
-              <span>JQuery</span>
-              <span>Css</span>
-              <span>Responsivo</span>
-            </div>
-          </a>
-        </div>
+        <div id="project__content"></div>
       </section>
     </div>
   </body>

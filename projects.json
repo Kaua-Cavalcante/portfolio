@@ -6,7 +6,7 @@
     "link": "https://blizzard-steel.vercel.app"
   },
   {
-    "name": "Shingei no kiojin",
+    "name": "WatherApp",
     "image": "./assets/preview-weatherapp.png",
     "tags": ["Javascript", "Integração de APIs", "Responsivo"],
     "link": "https://weather-app-kappa-eight-15.vercel.app"

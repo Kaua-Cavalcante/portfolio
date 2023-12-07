@@ -37,7 +37,6 @@ body {
   font: 400 16px "Inter", sans-serif;
 
   transition: background 0.2s linear;
-
 }
 
 body.dark {
@@ -66,4 +65,34 @@ body.dark {
 .subtitle {
   font-size: 28px;
   font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  .app {
+    gap: 40px;
+    grid-template-columns: auto 1fr;
+
+    margin: 120px 0;
+  }
+}
+
+@media (max-width: 1080px) {
+  .app {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .subtitle {
+    font-size: 24px;
+  }
 }

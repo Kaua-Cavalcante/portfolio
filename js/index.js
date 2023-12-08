@@ -40,7 +40,7 @@ const createProject = (project, index) => {
   elementProject.setAttribute("data-aos-duration", "800");
   elementProject.setAttribute("data-aos-easing", "ease-in-out");
   elementProject.setAttribute("data-aos-offset", "-100");
-  elementProject.setAttribute("data-aos-delay", 300 * (index + 1));
+  elementProject.setAttribute("data-aos-delay", 200 * (index + 1));
 
   elementProject.classList.add("project");
 

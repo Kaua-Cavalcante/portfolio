@@ -12,11 +12,13 @@
     />
 
     <link rel="stylesheet" href="./styles/global.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <script src="js/index.js" defer></script>
     <script src="js/theme.js" defer></script>
+    
   </head>
   <body>
     <div class="theme">
@@ -28,7 +30,12 @@
       </label>
     </div>
     <div class="app">
-      <section class="card user">
+      <section
+        class="card user"
+        data-aos="fade-right"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+      >
         <picture><img src="./assets/me.jpg" alt="foto-de-perfil" /></picture>
         <div class="user__content">
           <h1>Kauã Cavalcante</h1>
@@ -63,7 +70,12 @@
         </div>
       </section>
 
-      <section class="card about">
+      <section
+        class="card about"
+        data-aos="fade-left"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+      >
         <h2 class="subtitle">Sobre</h2>
 
         <p>
@@ -82,11 +94,21 @@
         </p>
       </section>
 
-      <section class="card projects">
+      <section
+        class="card projects"
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-easing="ease-in-out"
+      >
         <h2 class="subtitle">Projetos</h2>
 
         <div id="project__content"></div>
       </section>
     </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
   </body>
 </html>
